@@ -10,6 +10,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 st.markdown("# Rock vs Mine Prediction")
+url='https://www.kongsberg.com/contentassets/54e13215b6b74f0dae41a3f3d75cecb0/naval-sonar-asw-and-mine-hunting-1020x514?quality=50'
+st.image(url)
 df=pd.read_csv('https://raw.githubusercontent.com/pmt5387/rock_vs_mine/main/Sonar_data.csv',header=None)
 df.head()
 #df.shape
